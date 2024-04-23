@@ -1,0 +1,488 @@
+a {
+    color: #000; /* 设置链接颜色为黑色 */
+    text-decoration: none; /* 删除链接的下划线 */
+}
+
+a:hover {
+    color: #555; /* 设置鼠标悬停时的链接颜色 */
+}
+
+
+
+.progress-bar {
+    display: none; /* 隐藏底部滚动条 */
+}
+
+body {
+    width: calc(300vw + 500px); /* Adjusted width */
+    overflow: hidden; /* Hide both horizontal and vertical overflow */
+    height: 100%; /* Ensure body takes up full height */
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    overflow-y: auto; /* 允許垂直滾動 */
+    overflow-x: visible; /* 允許水平滾動 */
+    height: 100%; /* 確保 body 和 html 元素占據整個高度 */
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: calc(100vw + 18px); /* Adjusted width */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100%; /* Ensure body takes up full height */
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #212020;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+.container1 {
+    position: relative; /* Add this line */
+}
+
+.container1 h2{
+    font-size: 3vw; /* Adjust the value as needed */
+    position: absolute;
+    top: 50%;
+    left: 32%; /* Adjust the left position to center the element */
+    transform: translate(-50%, -50%);
+    color:#f6f6f6;
+    padding-bottom: 4vw;
+}
+
+.container1 p{
+    font-size: 18px;
+    position: center;
+    position: absolute;
+    margin-left: 6.5%;
+    top: 60%;
+    left: 27%; /* Adjust the left position to center the element */
+    transform: translate(-50%, -50%);
+    color:#f6f6f6;
+}
+
+h1{
+    color: #e7e7e7;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.header2 {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 0.7%;
+    background-color: #878686;
+    height: 40px;
+    width: 100%;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.buttonStyle {
+    font-family: Oswald, sans-serif;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0; /* Remove rounded corners */
+}
+
+.buttons {
+    display: flex; /* 使用 flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 0; /* 取消原来的顶部边距 */
+    margin-right: 0; /* 取消原来的右侧边距 */
+    margin-bottom: 0; /* 取消原来的底部边距 */
+}
+
+.buttons button {
+    font-family: Oswald, sans-serif;
+    background-color: transparent; /* 设置背景为透明 */
+    color: white; /* 将文字颜色设为白色 */
+    text-decoration: none; /* 删除文字下划线 */
+    font-size: 13px;
+    margin: 0 10px; /* 调整按钮之间的水平间距 */
+    border-radius: 0; /* 移除圆角 */
+    border: none; /* 移除边框 */
+}
+
+
+.header-column{
+    height: 60px;
+    margin-top: none;
+    background-color: #5c5857;
+   }
+
+.title{
+text-align: left;
+margin-left: 10%;
+}
+
+.strikes{
+margin-top: 0%;
+font-size: 40px;
+font-family: Oswald, sans-serif;
+color: rgb(0, 0, 0);
+float: left; /* Add this line */
+margin-left: 10%;
+width: 30%; /* Add this line */
+}
+
+.duringearthquake{
+margin-top:-12.5%;
+margin-bottom: 4%;
+padding-right: 11%;
+font-size: 18px;
+font-family: Oswald, sans-serif;
+color: rgb(0, 0, 0);
+line-height: 170%;
+width: 50%; /* Adjust the width as needed */
+float: right; /* Add this line */
+}
+
+.taiwan-junction-map{
+    padding-top: 7%;
+    padding-right: 7%;
+    margin-left: 1%;
+    font-size: 18px;
+    font-family: Oswald, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 170%;
+    }
+
+.title2{
+    text-align: center;
+    font-family: Oswald, sans-serif;    
+    font-display: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;  
+    padding-bottom: none;
+    margin-top: 0px ;
+    }
+
+.earthquake {
+    height: 800px;
+    background-color: linear-gradient(to bottom, rgba(217,167,199,0.6), rgba(255,252,220,0.6)), url("2PMlg85MkiGdkUG_zpLcPQyDgvTkb7MJoEE9MqBBPTI.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+
+table { 
+    font-family: Oswald, sans-serif;
+    line-height: 170%;
+    margin-left: 10%;
+    font-size: 18px;
+    width:1000px;
+    text-align:center;
+    border-collapse:collapse;
+  } 
+  th {
+    background-color: #eeeeee;
+    padding:10px;
+    border:1px solid #c7c7c7;
+    color:#000000;
+  } 
+  td { 
+    text-align: left;
+    border:1px solid #c7c7c7;
+    padding:5px;
+  } 
+.demo.component{
+        padding: 10px;
+      }
+ul li{
+    float: right;
+    margin-top: 0%;
+    margin-right: 50px;
+    padding-right: 3%;
+    list-style-type: none;
+}
+
+.row-item{
+    margin-bottom: -4%;
+}
+
+.desc{
+margin-left: 10%;
+font-size: 18px;
+font-family: Oswald, sans-serif;
+color: rgb(0, 0, 0);
+line-height: 170%;
+padding-right: 17%;
+}
+
+.desc5{
+    margin-left: 7px;
+    font-size: 18px;
+    font-family: Oswald, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 170%;
+    padding-right: 3%;
+    }
+
+    .style-one1 {
+        border: 0;
+        width: 40px;
+        margin-bottom: -1%;
+        margin-top: 50px;
+        padding-right: 40%; /* Adjust the padding to control the length of the line */
+        padding-left: 40%; /* Adjust the padding to control the length of the line */
+        text-align: center;
+        height:1px;
+        background: #333;
+        background-image: linear-gradient(to right, #f7f7f7, #bababa, #ffffff);
+        }
+.style-one2 {
+            border: 0;
+            margin-bottom: -5%;
+            width: 40px;
+            margin-top: 50px;
+            padding-right: 40%; /* Adjust the padding to control the length of the line */
+            padding-left: 40%; /* Adjust the padding to control the length of the line */
+            text-align: center;
+            height:1px;
+            background: #333;
+            background-image: linear-gradient(to right, #f7f7f7, #bababa, #ffffff);
+            }
+
+
+.taiwan-junction-map1{
+        margin-bottom: 3%;
+        margin-top: 50px;
+}
+
+.taiwan-junction-map{
+    margin-bottom: 3%;
+    margin-top: -8%;
+}
+
+.further-reading{
+margin-left: 10%;
+font-size: 18px;
+font-family: Oswald, sans-serif;
+color: rgb(0, 0, 0);
+line-height: 170%;
+padding-right: 17%;
+}
+
+.finalproject{
+text-align: center;
+font-size: 18px;
+font-family: Oswald, sans-serif;
+color: #f6f6f6;
+margin-bottom: -40px;
+}
+
+footer{
+    margin-top: 80px;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    background-color:#878686;
+    height: 130px;
+    width: 100%;
+    align-items: center;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+
+.evacuation {
+    margin-top: -80px;
+    height: 680px;
+    background-color: linear-gradient(to bottom, rgba(217,167,199,0.6), rgba(255,252,220,0.6)), url("2PMlg85MkiGdkUG_zpLcPQyDgvTkb7MJoEE9MqBBPTI.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+
+.container4 {
+    position: relative; /* Add this line */
+    
+}
+
+.container4 h2{
+    font-size: 3vw; /* Adjust the value as needed */
+    position: absolute;
+    top: 30%;
+    left: 70%; /* Adjust the left position to center the element */
+    transform: translate(-50%, -50%);
+    color:#f6f6f6;
+    padding-bottom: 4vw;
+}
+
+.container4 p{
+    font-size: 18px;
+    position: absolute;
+    top: 45%;
+    text-align: right;
+    right: 5%;
+    margin-left: 550px; /* Adjust the left position to align to the right */
+    color:#f6f6f6;
+}
+
+.iframe_block {
+    padding-top: -10px;
+    margin-bottom: -3%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make sure the container takes up the full height */
+}
+
+.iframe_block iframe {
+    max-width: 100%; /* Ensure the video doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the video doesn't exceed the container's height */
+}
+
+.list{
+    margin-left: 10%;
+    font-size: 18px;
+    font-family: Oswald, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 170%;
+    padding-right: 17%;
+}
+
+.Taiwan-Earthquake-Monitoring1{
+    margin-top: 8%;
+    margin-bottom: -1%;
+}
+
+.Taiwan-Earthquake-Monitoring{
+    margin-top: -3%;
+    margin-bottom: -8px;
+    margin-left: 5%;
+}
+.earthquake-video-resource{
+    margin-top: -30%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.iframe_junction {
+    padding-top: 3px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make sure the container takes up the full height */
+}
+
+.iframe_junction iframe {
+    max-width: 100%; /* Ensure the video doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the video doesn't exceed the container's height */
+}
+
+.earthquake-video-resource{
+    margin-top: 1%;
+}
+
+.text-h2-font-secondary-mb-3{
+    text-align: center;
+    font-size: 18px;
+    font-family: Oswald, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 170%;
+    margin-top: -3%;
+    margin-bottom: -8%;
+}
+
+.quiz {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 60vh; /* Use viewport height to take up the full screen */
+}
+
+.quiz iframe {
+    width: 100%; /* Ensure the iframe takes up the full width of its container */
+    height: 100%; /* Ensure the iframe takes up the full height of its container */
+    border: none; /* Remove iframe border */
+}
+
+.earthquake-frequency{
+    display: flex;
+    margin-left: 110px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Make sure the container takes up the full height */
+}
+.earthquake-frequency {
+    margin-top: 0%;
+    max-width: 100%; /* Ensure the video doesn't exceed the container's width */
+    max-height: 100%; /* Ensure the video doesn't exceed the container's height */
+}
+
+.style-one {
+    border: 0;
+    width: 40px;
+    margin-bottom: -5%;
+    margin-top: 50px;
+    padding-right: 40%; /* Adjust the padding to control the length of the line */
+    padding-left: 40%; /* Adjust the padding to control the length of the line */
+    text-align: center;
+    height:1px;
+    background: #333;
+    background-image: linear-gradient(to right, #f7f7f7, #bababa, #ffffff);
+    }
+
+.title8{
+    font-family: Oswald, sans-serif;    
+    margin-top: 10%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.evacuate{
+    margin-bottom: 5%;
+}
+
+.text-h2-font-secondary-mb-3{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.earthquake-video-resource{
+    margin-bottom: 5%;
+}
+
+.new-font{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+.image-container{
+    margin-left: 20%;
+}
